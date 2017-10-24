@@ -18,7 +18,7 @@ public class VariableTester {
 	   System.out.println(pass);
 	
 	
-	  String s = new String("Hello");
+	  
 	  Random r = new Random();
 	  int n1 = r.nextInt(6)+1;
 	  int n2 = r.nextInt(6)+1;
@@ -27,7 +27,18 @@ public class VariableTester {
 	  System.out.println(3 == 2);
 	
 	
-	
+	  String s = new String("Hello");
+	  int len = s.length();
+	  System.out.println("len:"+len);
+	  System.out.println(s.charAt(0));
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 	}
 
 
