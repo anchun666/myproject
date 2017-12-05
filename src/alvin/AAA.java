@@ -11,6 +11,7 @@ public class AAA {
 		while(n<=10){
 			System.out.println(i);
                break;
+               
 		}
 		
 	

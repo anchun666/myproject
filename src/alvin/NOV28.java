@@ -25,16 +25,17 @@ public class NOV28 {
 			}
 
 		}
-		int number[] = { 51, 23, 6, 65, 15, 78, 45 };
+		int number[] = { 51, 23, 6, 65, 15, 78, 99, 54 };
 
 		int i, j;
 
 		for (i = 0; i < number.length-1; i++) {
 			for (j = 0; j < number.length-1; j++) {
-				if (number[j + 1] < number[j]) {
+				//System.out.println(i+","+j);
+				if (number[j] > number[j+1]) {
 					int tmp = number[j];
-					number[j] = number[j + 1];
-					number[j + 1] = tmp;
+					number[j] = number[j+1];
+					number[j+1] = tmp;
 				}
 			}
 		}
