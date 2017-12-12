@@ -5,11 +5,16 @@ public class Student {
  int math;
  int chinese;
  String name;
- public Student(String n, int e,int m,int c){
-	 name = n;
-	 english = e;
-	 math = m;
-	 chinese = c;
+ public Student(String name, int english,int math,int chinese){
+	 this.name = name;
+	 this.english = english;
+	 this.math = math;
+	 this.chinese = chinese;
+ 
+ }
+ public Student(String n){
+	 this.name = n;
+	 
 	
  }
  
